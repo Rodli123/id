@@ -141,11 +141,11 @@ id:
     generic_error: "Maaf, terjadi kesalahan."
     generic_error_with_reason: "Terjadi kesalahan: %{error}"
     sign_up: "Daftar"
-    log_in: "Masuk"
+    log_in: "Log In"
     age: "Umur"
     joined: "Bergabung"
     admin_title: "Admin"
-    flags_title: "Tandai"
+    flags_title: "Flags"
     show_more: "tampilkan lebih banyak"
     show_help: "pilihan"
     links: "Tautan"
@@ -154,7 +154,7 @@ id:
     faq: "FAQ"
     guidelines: "Petunjuk"
     privacy_policy: "Kebijakan Privasi"
-    privacy: "Kebijakan"
+    privacy: "Privasi"
     terms_of_service: "Ketentuan Layanan"
     mobile_view: "Tampilan Mobile"
     desktop_view: "Tampilan Desktop"
@@ -335,7 +335,7 @@ id:
       category: "Kategori"
       category_list: "Tampilan daftar kategori"
       reorder:
-        title: "atur ulang kategori"
+        title: "memesan ulang kategori"
         title_long: "Mengatur ulang daftar kategori"
         fix_order: "Posisi yang tepat"
         fix_order_tooltip: "Tidak semua kategori mempunyai angka posisi yang unik, yang mana dapat menyebabkan hasil yang tidak diharapkan."
@@ -353,12 +353,12 @@ id:
       topic_stat_sentence:
         other: "%{count} topik baru dalam %{unit} terakhir."
     ip_lookup:
-      title: "Pencarian Alamat IP"
-      hostname: "nama host"
-      location: "Lokasi"
-      location_not_found: "lokasi tidak diketahui"
-      organisation: "Organisasi"
-      phone: "Telepon"
+      title: Pencarian Alamat IP
+      hostname: nama host
+      location: Lokasi
+      location_not_found: (tidak diketahui)
+      organisation: Organisasi
+      phone: Telepon
       other_accounts: "Akun lain dengan alamat IP ini: "
       delete_other_accounts: "Hapus %{count}"
       username: "username"
@@ -377,7 +377,7 @@ id:
       new_private_message: "Pesan Baru"
       private_message: "pesan"
       private_messages: "Messages"
-      activity_stream: "Aktivitas"
+      activity_stream: "Activity"
       preferences: "Preferensi"
       expand_profile: "meluas"
       bookmarks: "Markah"
@@ -446,23 +446,23 @@ id:
         failed_to_move: "Gagal memindahkan pesan terpilih (mungkin internet kamu putus ?)"
         select_all: "Pilih Semua"
       change_password:
-        success: "email terkirim"
-        in_progress: "mengirimkan email"
-        error: "kesalahan"
+        success: "(surel terkirim)"
+        in_progress: "(mengirimkan surel)"
+        error: "(galat)"
         action: "Kirim Email Reset Kata Sandi"
         set_password: "Atur Kata Sandi"
       change_about:
         title: "Ganti Tentang Saya"
         error: "Ada kesalahan saat mengganti nilai ini"
       change_username:
-        title: "Ganti User ID"
-        taken: "Maaf, user id tersebut sudah ada yang menggunakan"
-        invalid: "User ID tersebut tidak valid. User ID harus berupa angka dan huruf"
+        title: "Ganti Username"
+        taken: "Maaf, username tersebut sudah ada yang menggunakan"
+        invalid: "Username tersebut tidak valid. Username harus berupa angka dan huruf"
       change_email:
-        title: "Ganti Alamat Email"
-        taken: "Maaf, alamat email tersebut tidak tersedia."
+        title: "Ganti Alamat Surel"
+        taken: "Maaf, alamat surel tersebut tidak tersedia."
         error: "Ada kesalahan dalam merubah alamat email Anda. Alamat ini telah digunakan oleh pengguna lain?"
-        success: "Kami telah mengirimkan petunjuk konfirmasi ke alamat email Anda. Silahkan ikuti petunjuk konfirmasi didalamnya."
+        success: "Kami telah mengirimkan surel kepada alamat itu. Silahkan mengikuti petunjuk konfirmasi didalamnya."
       change_avatar:
         title: "Ganti gambar profil anda"
         gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, berdasarkan "
@@ -481,36 +481,33 @@ id:
         title: "Latar Belakang Kartu Penguna"
         instructions: "Gambar latar belakang akan ditengahkan dan mempunyai lebar standar 590px"
       email:
-        title: "Email"
-        instructions: "email yang aktif"
-        ok: "Kami akan mengirimkan email kepada anda untuk konfirmasi"
+        title: "Surel"
+        ok: "Kami akan mengirimkan surel kepada anda untuk konfirmasi"
         invalid: "Silahkan masukkan alamat email yang valid"
         authenticated: "Email anda sudah dikonfirmasi oleh {{provider}}"
         frequency:
           other: "Kami akan mengirimkan email kepada anda jika kami tidak melihat anda selama {{count}} menit."
       name:
-        title: "Nama"
-        instructions: "nama lengkap (optional)"
+        title: "Name"
         instructions_required: "Nama lengkap anda"
         too_short: "Nama anda terlalu pendek"
         ok: "Nama anda terlihat bagus"
       username:
-        title: "User ID"
-        instructions: "unik, tidak ada spasi, pendek"
+        title: "Nama Pengguna"
         short_instructions: "Orang dapat menyebut anda sebagai @{{username}}"
-        available: "User ID anda tersedia"
+        available: "Nama pengguna anda tersedia"
         not_available: "Tidak tersedia. Coba {{suggestion}}?"
-        too_short: "User ID anda terlalu pendek"
-        too_long: "User ID anda terlalu panjang"
-        checking: "Memeriksa ketersediaan user id..."
-        prefilled: "Email cocok dengan user id yang terdaftar"
+        too_short: "Nama pengguna anda terlalu pendek"
+        too_long: "Nama pengguna anda terlalu panjang"
+        checking: "Memeriksa ketersediaan nama pengguna..."
+        prefilled: "Surel cocok dengan nama pengguna yang terdaftar"
       locale:
         title: "Bahasa antarmuka"
         default: "(standar)"
       password_confirmation:
-        title: "Konfrimas Kata Sandi"
+        title: "Kata Sandi Lagi"
       last_posted: "Tulisan Terakhir"
-      last_emailed: "Terakhir Email Dikirimkan"
+      last_emailed: "Terakhir Surel Dikirimkan"
       last_seen: "Seen"
       created: "Joined"
       log_out: "Keluar"
@@ -570,12 +567,11 @@ id:
           text: "Undangan Massal dari Berkas"
       password:
         title: "Kata sandi"
-        too_short: "Kata sandi kamu terlalu pendek."
-        common: "Kata sandi terlalu umum"
-        same_as_username: "Kata sandi dan user id kamu sama"
-        same_as_email: "Kata sandi dan email kamu sama"
+        too_short: "Password kamu terlalu pendek."
+        common: "Password terlalu umum"
+        same_as_username: "Password dan nama pengguna kamu sama"
+        same_as_email: "Password dan email kamu sama"
         ok: "Kata sandi Anda terlihat baik."
-        instructions: "minimal %{count} karakter"
       summary:
         title: "Ringkasan"
         stats: "Statistik"
@@ -619,44 +615,38 @@ id:
     month: 'bulan'
     week: 'minggu'
     day: 'hari'
-    last_reply_lowercase: "balasan terakhir"
+    last_reply_lowercase: balasan terakhir
     signup_cta:
       hide_forever: "tidak, terima kasih"
     summary:
       disable: 'Tampilkan Semua Postingan'
     private_message_info:
       title: "Pesan"
-    email: 'Email'
-    username: 'User ID'
+    email: 'Surel'
+    username: 'Nama Pengguna'
     last_seen: 'Terlihat'
     created: 'Dibuat'
     created_lowercase: 'dibuat'
     trust_level: 'Tingkat Kepercayaan'
-    search_hint: 'user id, email, atau alamat IP'
+    search_hint: 'username, email, atau alamat IP'
     create_account:
-      disclaimer: "Dengan mendaftar, Anda menyetujui <a href='{{tos_link}}'>ketentuan</a> kami dan bahwa Anda telah membaca <a href='{{privacy_link}}'>kebijakan</a> data kami."
       title: "Buat Akun Baru"
     forgot_password:
       action: "Saya lupa password"
       invite: "Silahkan masukkan username atau alamat email, dan kami akan mengirimkan email untuk menentukan ulang sandi Anda."
     login:
-      title: "Masuk"
-      username: "User ID"
+      title: "Log In"
+      username: "Pengguna"
       password: "Kata Sandi"
-      email_placeholder: "email atau user id"
+      email_placeholder: "email atau username"
       caps_lock_warning: "Tombol \"Caps Lock\" menyala"
-      blank_username_or_password: "Silahkan masukkan email atau user id dan kata sandi anda"
+      blank_username_or_password: "Silahkan masukkan email atau nama pengguna dan kata sandi anda"
       reset_password: 'Atur Ulang Kata Sandi'
       or: "atau"
       twitter:
-        title: "Twitter"
+        title: "dengan Twitter"
       facebook:
-        title: "Facebook"
-      google:
-        title: "Google"
-        message: "Mengautentikasi dengan Google (pastikan pop up blocker tidak diaktifkan)"
-      github:
-        title: "Github"
+        title: "dengan Facebook"
     composer:
       reply_here: "Balas Disini"
       reply: "Balas"
@@ -694,10 +684,10 @@ id:
       back_to_list: "Kembali ke Daftar Topik"
       options: "Opsi Topik"
       show_links: "tampilkan pranala dalam topik ini"
-      browse_all_categories: "Lihat semua kategori"
-      view_latest_topics: "lihat topik terbaru"
-      suggest_create_topic: "Buat topik baru?"
-      jump_reply_up: "lompat ke balasan sebelumnya"
+      browse_all_categories: Lihat semua kategori
+      view_latest_topics: lihat topik terbaru
+      suggest_create_topic: Buat topik baru?
+      jump_reply_up: lompat ke balasan sebelumnya
       split_topic:
         title: "Pindahkan sebagai Topik Baru"
         action: "pindahkan sebagai topik baru"
@@ -784,7 +774,7 @@ id:
             label: "Baru:"
             ip_address: "Alamat IP"
       users:
-        not_found: "Maaf, user id tersebut tidak ada ditemukan."
+        not_found: "Maaf, username tersebut tidak ada ditemukan."
         active: "Aktif"
         nav:
           new: "Baru"
@@ -807,5 +797,5 @@ id:
         categories:
           users: 'Pengguna'
       badges:
-        new_badge: "Badge Baru"
-        new: "Baru"
+        new_badge: Badge Baru
+        new: Baru
